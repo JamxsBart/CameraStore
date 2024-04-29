@@ -1,0 +1,179 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(180, 199, 231);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .top-navbar {
+    background-color: rgb(32, 56, 100);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+
+  }
+  
+  .navbar-item {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 130px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 100%;
+    
+  }
+
+  .navbar-item:hover {
+    text-decoration: none;
+    color: #d8d8d8;
+    margin-right: 130px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 100%;
+  }
+  
+  .navbar-right {
+    display: flex;
+  }
+  
+
+  .Header-container {
+    background: scroll;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+    background-image: url(/pictures/pexels-fox-58267-225157.jpg);
+    background-size: cover;
+    padding: 26%;
+    filter:brightness(90%);
+
+  }
+
+  .footer-section {
+    text-align: center;
+    padding: 17px 0;
+    background-color: rgb(32, 56, 100);
+    color: #ffffff;
+    margin-top: 5%;
+    position: flex;
+  }
+  
+  .footer-text {
+    font-size: 100%;
+    text-align: center;
+  }
+  
+ 
+
+  h1 {
+
+    font-family: "narly", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2 {
+    margin-left: 5%;
+
+  }
+
+  p {
+    margin-left: 5%;
+  }
+
+  * {box-sizing:border-box}
+
+  .slideshow-container {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+  }
+  
+  .mySlides {
+    display: none;
+
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 715px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev {
+    left: 4px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  article {
+    background-color: rgb(157, 195, 230);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-top: -7px;
+    margin-bottom: 50%;
+  }
+
+
+
+  .slide-text {
+   float: right;
+   margin-left: 63%;
+   position: absolute;
+   margin-right: 2%;
+   margin-top: -37%;
+   }
+
+   h5 {
+    margin-left: 5%;
+    font-size: 110%;
+    font-weight: 900;
+   }
