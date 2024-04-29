@@ -57,7 +57,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img, form, input, textarea, button 
     background: scroll;
     background-position-y: 70%;
     background-repeat: no-repeat;
-    background-image: url(/pictures/pexels-fox-58267-225157.jpg);
+    background-image: url(pexels-fox-58267-225157.jpg);
     background-size: cover;
     padding: 26%;
     filter:brightness(90%);
